@@ -1,0 +1,43 @@
+.end-to-end-section .highlight {
+  background-color: #5e2ced;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 50px;
+}
+.first-letter {
+  letter-spacing: 2px;
+  font-size: 15px;
+}
+.text-box {
+  text-align: left;
+}
+.end-to-end-section .text-start-box {
+  text-align: left;
+}
+.blue-text {
+  color: #5e2ced;
+}
+.para-text {
+  max-width: 70%;
+  font-weight: 500;
+}
+.custom-button {
+  background-color: #5e2ced !important;
+  border: none !important;
+  outline: none !important;
+}
+.last-text {
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .end-to-end-section .text-start-box {
+    text-align: center;
+  }
+  .para-text {
+    max-width: 100%;
+  }
+  .last-text {
+    font-size: 12px;
+  }
+}

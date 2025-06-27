@@ -1,0 +1,106 @@
+/* Container */
+.main-container {
+  background-color: #a7ded9;
+  width: 70%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  z-index: 4 !important;
+  position: relative;
+}
+
+.why-stark-section {
+  background-color: #a7ded9;
+  padding: 60px 0;
+}
+
+/* Section Titles */
+.why-stark-heading {
+  text-align: center;
+  font-size: 2.7rem;
+  font-weight: 800;
+  color: #04142e;
+  margin-bottom: 50px;
+  margin-top: 40px;
+}
+
+.why-stark-subheading {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #3e00f9;
+  letter-spacing: 1px;
+  margin-bottom: 12px;
+}
+
+/* Feature Card */
+.feature-card {
+  background: #a7ded9;
+  border-radius: 16px;
+  width: 80%;
+  height: 100%;
+  margin-left: 80px;
+}
+/* Icon */
+.feature-icon {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 12px;
+}
+
+.feature-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* Feature Title */
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #3e00f9;
+  margin-bottom: 8px;
+}
+
+/* Feature Description */
+.feature-description {
+  font-size: 1rem;
+  color: #222831;
+  line-height: 1.6;
+  font-weight: 600;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .main-container {
+    width: 100% !important;
+    border-radius: 0px;
+  }
+  .why-stark-heading {
+    font-size: 1.8rem;
+  }
+  .feature-card {
+    width: 90%;
+    margin-left: 10px;
+  }
+  .feature-card {
+    padding: 18px;
+  }
+
+  .feature-icon {
+    font-size: 2rem;
+  }
+
+  .feature-title {
+    font-size: 1rem;
+  }
+
+  .feature-description {
+    font-size: 0.9rem;
+  }
+}

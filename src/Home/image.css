@@ -1,0 +1,17 @@
+.image-wrapper {
+  text-align: center;
+  margin-top: -170px;
+  z-index: 3 !important;
+}
+
+.img-fluid {
+  width: 85%;
+  height: auto;
+  border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+  .img-fluid {
+    width: 100%;
+  }
+}

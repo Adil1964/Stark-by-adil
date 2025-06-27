@@ -1,0 +1,34 @@
+.highlight-bg {
+  background-color: #fedb41;
+  padding: 0.2rem 0.4rem;
+  display: inline-block;
+}
+
+.g2-box {
+  background-color: #ffffff;
+  border: 1px solid #5e2ced;
+  border-radius: 12px;
+  font-size: 1.1rem;
+}
+.award-badge {
+  width: 180px; /* adjust this value as needed */
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+.last-box {
+  outline: #5e2ced 1px solid !important;
+}
+.custom-text {
+  color: #5e2ced;
+  font-size: 24px;
+  font-weight: 800;
+}
+.text-p {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #091133;
+  max-width: 70%;
+  margin: 0 auto; /* center horizontally */
+  text-align: center;
+}

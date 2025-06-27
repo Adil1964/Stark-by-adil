@@ -1,0 +1,139 @@
+.scale-section {
+  position: relative;
+  padding: 6rem 1rem 10rem;
+  background: #fff;
+  z-index: 1;
+}
+
+.background-svg-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.background-svg {
+  position: absolute;
+  top: -100px;
+  left: 10px;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+}
+
+.background-blob {
+  position: absolute;
+  bottom: -4rem;
+  right: -8rem;
+  width: 500px;
+  height: auto;
+  opacity: 0.1;
+  pointer-events: none;
+}
+.scale-card {
+  background-color: #ffffff;
+  border-radius: 40px;
+  padding: 3.5rem;
+  position: relative;
+  width: 85%;
+  justify-content: center;
+  margin: auto;
+  box-shadow: 8px 10px 30px rgba(0, 0, 0, 0.12);
+  z-index: 1000;
+}
+
+.role-image {
+  position: absolute;
+  top: -120px; /* pull upward */
+  right: 0;
+  height: 900px;
+  width: 180%;
+  object-fit: contain;
+  animation: fadeIn 1.2s ease-in-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+.subtitle {
+  color: #6a5acd;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-heading {
+  font-size: 2.5rem;
+  color: #1c1f40;
+  font-weight: 800;
+  margin-bottom: 2rem;
+  line-height: 1.2;
+}
+
+.highlight-yellow {
+  background: #ffd700;
+  padding: 0 0.4rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.roles {
+  display: grid;
+  gap: 1rem;
+}
+
+.role-box {
+  display: block;
+  text-decoration: none;
+  background: #ffffff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  transition: background 0.3s ease;
+  cursor: pointer;
+  width: 80%;
+}
+
+.role-box:hover {
+  background: #f2ebfc;
+}
+
+.role-title {
+  font-size: 1.25rem;
+  color: #4b3cc4;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+.role-title:hover {
+  text-decoration: underline;
+}
+.role-box p {
+  color: #1c1f40;
+  font-size: 1.09rem;
+  margin: 0;
+}
+
+/* Responsive fixes */
+@media (max-width: 991px) {
+  .role-image {
+    display: none;
+  }
+  .background-svg {
+    width: 250px;
+    height: 250px;
+  }
+  .scale-card {
+    padding: 2rem;
+    width: 100% !important;
+    border-radius: 0px;
+    max-width: 100%;
+  }
+
+  .main-heading {
+    font-size: 1.6rem;
+  }
+}

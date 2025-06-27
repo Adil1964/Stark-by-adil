@@ -1,0 +1,26 @@
+.heading-highlight {
+  font-weight: 700;
+  color: #091133;
+  line-height: 1;
+}
+
+.highlight-bg {
+  background-color: #fedb41;
+  padding: 0.2rem 0.4rem;
+  display: inline-block;
+  margin-bottom: 0.3rem;
+}
+.decription {
+  font-size: 17px;
+  color: #333;
+  font-weight: 500;
+  margin-top: 0.5rem;
+}
+.custom-button {
+  background-color: #091133;
+  font-weight: 600;
+}
+.custom-image {
+  max-width: 150%; /* Increase to 100% if needed */
+  height: auto;
+}

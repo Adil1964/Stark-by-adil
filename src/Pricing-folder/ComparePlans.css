@@ -1,0 +1,109 @@
+/* Root Section */
+.compare-plans-section {
+  background-color: #fcfcf6;
+  padding: 40px 0;
+}
+
+/* Heading */
+.compare-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1b1b1b;
+}
+
+/* Yellow Banner Highlight */
+.highlight-banner {
+  background-color: #ffe347;
+  padding: 0.25rem 1rem;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+/* Subtext */
+.lead {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1b1b1b;
+  max-width: 500px;
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+/* Responsive Table Container */
+.table-responsive {
+  border: 1px solid #381fd1;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Comparison Table */
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.compare-table th,
+.compare-table td {
+  padding: 1rem;
+  vertical-align: middle;
+  font-size: 1rem;
+  color: #333;
+}
+
+.compare-table thead th {
+  background-color: #fcfcf6;
+  font-weight: 700;
+  border-bottom: #fcfcf6;
+}
+
+.compare-table tbody tr.table-section td {
+  background-color: #f3f3e6;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1b1b1b;
+}
+
+/* Link Styling */
+.compare-table a {
+  color: #4629b6;
+  text-decoration: underline;
+}
+
+/* Buttons inside Table */
+.compare-table button {
+  padding: 6px 14px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.outline:hover {
+  background-color: #381fd1;
+  color: white !important;
+}
+/* Responsive: Tablets */
+@media (max-width: 991.98px) {
+  .compare-heading {
+    font-size: 2rem;
+  }
+}
+
+/* Responsive: Phones */
+@media (max-width: 768px) {
+  .compare-heading {
+    font-size: 1.75rem;
+  }
+
+  .compare-table th,
+  .compare-table td {
+    font-size: 0.9rem;
+    padding: 0.75rem;
+  }
+}
+
+/* Hide section on mobile */
+@media (max-width: 767.98px) {
+  .compare-plans-section {
+    display: none !important;
+  }
+}
