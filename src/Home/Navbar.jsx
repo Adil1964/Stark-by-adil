@@ -36,7 +36,7 @@ const MyNavbar = () => {
     <Navbar expand="lg" variant="dark" className="custom-navbar py-4">
       <Container>
         {/* Logo */}
-        <Navbar.Brand as={NavLink} to="/home/">
+        <Navbar.Brand as={NavLink} to="/">
           <img src={Logo} alt="Logo" className="me-2" />
         </Navbar.Brand>
 
@@ -53,7 +53,7 @@ const MyNavbar = () => {
             >
               <Nav.Link
                 as={NavLink}
-                to="/home/"
+                to="/"
                 className="use-cases-btn dropdown-toggle"
               >
                 Use Cases

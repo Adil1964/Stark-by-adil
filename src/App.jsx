@@ -8,7 +8,7 @@ import TrialPage from "./Free-Trail/Trial";
 function App() {
   const router = createBrowserRouter([
     {
-      path: "/home/",
+      path: "/",
       element: <Home />,
     },
     {
